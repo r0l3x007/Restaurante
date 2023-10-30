@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    background-image: url("bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header{
+    background-color: rgba(28, 118, 145, 0.61);
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.menuBtn{
+    font-size: 2rem;
+}
+
+
+.txtDesc{
+    margin-top: 15%;
+    background-color: rgba(28, 118, 145, 0.61);
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 40vh;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+}
+
+.descCont{
+    align-self: center;
+    margin: auto;
+    font-size:x-large;
+}
