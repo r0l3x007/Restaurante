@@ -1,10 +1,13 @@
 import  "./stylesheet.css";
 import navIgation from './home.js';
+import mainMenu from './menu.js';
 
 console.log('kutyagumi');
 
 navIgation.drawNav();
-navIgation.drawDesc();
+//navIgation.drawDesc();
+mainMenu.drawMenu();
+navIgation.drawFoot();
 
 /*function navBar(){
     const navigationBar = document.createElement(`HEADER`);

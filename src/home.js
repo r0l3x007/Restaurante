@@ -40,9 +40,18 @@ function descriptionCont(){
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
     txtContain.classList.add(`descCont`);
     containerOfText.appendChild(txtContain);
-    container.appendChild(containerOfText);
+    
+    return containerOfText;
 }
 
+
+function footErDraw(){
+    const footEr = document.createElement(`FOOTER`);
+    footEr.textContent = `DesignByRollo`;
+    
+
+    return footEr;
+}
 
 
 return{
@@ -51,6 +60,9 @@ return{
     },
     drawDesc:()=>{
         return container.appendChild(descriptionCont())
+    },
+    drawFoot:()=>{
+        return container.appendChild(footErDraw());
     }
 }
 
